@@ -16,6 +16,7 @@ public class Main {
 		new	PacientObserverGUI	(pacient);
 		new	PacientSymptomGUI	((Covid19Pacient) pacient);
 		new PacientThermometerGUI(pacient);
+		new SemaphorGUI(pacient);
 		
 		
 		ShowPacientTableGUI gui= new ShowPacientTableGUI(pacient);
@@ -23,7 +24,7 @@ public class Main {
 		gui.setVisible(true);
 		
 		
-		
+		/*
 		Covid19Pacient	pacient2=new	Covid19Pacient("ane",	20, new FactorySymptom());
 		new	PacientObserverGUI	(pacient2);
 		new	PacientSymptomGUI	((Covid19Pacient) pacient2);
@@ -44,7 +45,7 @@ public class Main {
 		ShowPacientTableGUI gui3= new ShowPacientTableGUI(pacient3);
 		gui.setPreferredSize(new java.awt.Dimension(300, 200));
 		gui.setVisible(true);
-
+		*/
 
 	}
 
