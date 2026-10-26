@@ -13,6 +13,7 @@ public class Main {
 		pacient.addSymptomByName("cefalea", 1);
 		pacient.addSymptomByName("astenia", 3);
 		
+		
 		ShowPacientTableGUI gui=new ShowPacientTableGUI(pacient);
 		gui.setPreferredSize(
 			      new java.awt.Dimension(300, 200));

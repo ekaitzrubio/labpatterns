@@ -34,6 +34,8 @@ public class Covid19PacientTableModelAdapter extends AbstractTableModel {
 	  }
 
 	  public Object getValueAt(int row, int col) {
+		  
+		  symptoms= new Vector(pacient.getSymptoms());
 	    // Challenge!
 		  if(col==0) {
 			  return symptoms.get(row).getName();
